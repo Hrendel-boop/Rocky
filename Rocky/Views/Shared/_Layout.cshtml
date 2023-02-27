@@ -45,6 +45,7 @@
                         <li>
                             @if(HttpContextAccesor.HttpContext.Session.Get<List<ShoppingCart>>(WebConstants.SessionCart)!=null){
                                 <a asp-action="Index" asp-controller="Cart" class="nav-link">
+                                   Cart 
                                     @{
                                         var count = HttpContextAccesor.HttpContext.Session.Get<List<ShoppingCart>>(WebConstants.SessionCart).Count;
                                     }
@@ -54,6 +55,7 @@
                             else
                             {
                                 <a href="#" class="nav-link">
+                                    Cart
                                     <i class="fas fa-shopping-cart"></i> &nbsp; (0)
                                 </a>
                             }
