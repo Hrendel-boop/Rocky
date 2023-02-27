@@ -30,7 +30,8 @@ namespace Rocky
                 Options.Cookie.HttpOnly= true;
                 Options.Cookie.IsEssential= true;
             });
-            builder.Services.AddDefaultIdentity<IdentityUser>()
+            builder.Services.AddIdentity<IdentityUser,IdentityRole>()
+                .AddDefaultTokenProviders().AddDefaultUI()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             var app = builder.Build();
