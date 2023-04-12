@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Mailjet.Api": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.14, )"
@@ -90,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Tokens;
 using Rocky.Data;
+using Rocky.Utility;
 
 namespace Rocky
 {
@@ -33,6 +35,8 @@ namespace Rocky
             builder.Services.AddIdentity<IdentityUser,IdentityRole>()
                 .AddDefaultTokenProviders().AddDefaultUI()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            builder.Services.AddTransient<IEmailSender, EmailSender>();
+
 
             var app = builder.Build();
 
