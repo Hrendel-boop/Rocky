@@ -10,7 +10,7 @@ namespace Rocky.Utility
     {
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            throw new NotImplementedException();
+            return Execute(email, subject, htmlMessage);
         }
 
         public static async Task Execute(string email, string subject, string body)
@@ -37,7 +37,7 @@ namespace Rocky.Utility
         new JObject {
          {
           "Email",
-          "giraffeguids@gmail.com"
+          email
          }, {
           "Name",
           "Danil"
@@ -46,20 +46,14 @@ namespace Rocky.Utility
        }
       }, {
        "Subject",
-       "Greetings from Mailjet."
-      }, {
-       "TextPart",
-       "My first Mailjet email"
-      }, {
+       subject
+      },  {
        "HTMLPart",
-       "<h3>Dear passenger 1, welcome to <a href='https://www.mailjet.com/'>Mailjet</a>!</h3><br />May the delivery force be with you!"
-      }, {
-       "CustomID",
-       "AppGettingStartedTest"
-      }
+       body
+      }, 
      }
     });
-            MailjetResponse response = await client.PostAsync(request);
+           await client.PostAsync(request);
         }
     }
 }

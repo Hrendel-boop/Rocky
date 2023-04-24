@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Nr55wQ+fdvWYOb/kjEv8gdpSlEtecgwa+nLu22xnGKQ=",
+  "Hash": "RB0m+bZRxG4TaE6ipMHYgUtqMUZcihkZBmjQNa3b3fs=",
   "Source": "Rocky",
   "BasePath": "_content/Rocky",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\0a7204c7-ac68-4018-9069-71a3302cb180.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\Rocky\\Rocky\\wwwroot\\images\\product\\5d8172ad-8021-4681-aa62-503a56c5bd92.png",
+      "SourceId": "Rocky",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\Rocky\\Rocky\\wwwroot\\",
+      "BasePath": "_content/Rocky",
+      "RelativePath": "images/product/5d8172ad-8021-4681-aa62-503a56c5bd92.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\5d8172ad-8021-4681-aa62-503a56c5bd92.png"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\Rocky\\Rocky\\wwwroot\\images\\product\\60b79b09-d646-4975-a508-34609fa86300.jpg",

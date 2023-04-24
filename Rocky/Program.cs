@@ -25,6 +25,7 @@ namespace Rocky
             options.UseSqlServer(
                configuration.GetConnectionString("DefaultConnection")
                ));
+            builder.Services.AddTransient<IEmailSender, EmailSender>();
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddSession(Options =>
             {

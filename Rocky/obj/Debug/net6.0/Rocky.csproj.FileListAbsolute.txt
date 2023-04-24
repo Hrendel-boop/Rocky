@@ -296,3 +296,7 @@ C:\Users\user\source\repos\Rocky\Rocky\bin\Debug\net6.0\Microsoft.Extensions.Ide
 C:\Users\user\source\repos\Rocky\Rocky\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\user\source\repos\Rocky\Rocky\obj\Debug\net6.0\Rocky.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\source\repos\Rocky\Rocky\bin\Debug\net6.0\Mailjet.Client.dll
+C:\Users\user\source\repos\Rocky\Rocky\bin\Debug\net6.0\ElasticEmail.dll
+C:\Users\user\source\repos\Rocky\Rocky\bin\Debug\net6.0\JsonSubTypes.dll
+C:\Users\user\source\repos\Rocky\Rocky\bin\Debug\net6.0\Polly.dll
+C:\Users\user\source\repos\Rocky\Rocky\bin\Debug\net6.0\RestSharp.dll
